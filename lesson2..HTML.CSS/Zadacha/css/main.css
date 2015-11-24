@@ -1,0 +1,229 @@
+ /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+ html {
+     color: #222;
+     font-size: 1em;
+     line-height: 1.4;
+ }
+
+ ::-moz-selection {
+     background: #b3d4fc;
+     text-shadow: none;
+ }
+
+ ::selection {
+     background: #b3d4fc;
+     text-shadow: none;
+ }
+
+ hr {
+     display: block;
+     height: 1px;
+     border: 0;
+     border-top: 1px solid #ccc;
+     margin: 1em 0;
+     padding: 0;
+ }
+
+ audio,
+ canvas,
+ iframe,
+ img,
+ svg,
+ video {
+     vertical-align: middle;
+ }
+
+ fieldset {
+     border: 0;
+     margin: 0;
+     padding: 0;
+ }
+
+ textarea {
+     resize: vertical;
+ }
+
+ .browserupgrade {
+     margin: 0.2em 0;
+     background: #ccc;
+     color: #000;
+     padding: 0.2em 0;
+ }
+
+ h1, h2, h3, h4, p {
+     margin: 0;
+ }
+
+ /* ==========================================================================
+    Helper classes
+    ========================================================================== */
+
+ .hidden {
+     display: none !important;
+     visibility: hidden;
+ }
+
+ .visuallyhidden {
+     border: 0;
+     clip: rect(0 0 0 0);
+     height: 1px;
+     margin: -1px;
+     overflow: hidden;
+     padding: 0;
+     position: absolute;
+     width: 1px;
+ }
+
+ .visuallyhidden.focusable:active,
+ .visuallyhidden.focusable:focus {
+     clip: auto;
+     height: auto;
+     margin: 0;
+     overflow: visible;
+     position: static;
+     width: auto;
+ }
+
+ .invisible {
+     visibility: hidden;
+ }
+
+ .clearfix:before,
+ .clearfix:after {
+     content: " ";
+     display: table;
+ }
+
+ .clearfix:after {
+     clear: both;
+ }
+
+ .clearfix {
+     *zoom: 1;
+ }
+
+
+
+ /* ==============================================
+    Reusable styles
+    ============================================ */
+
+
+ .bgr {
+     background-color: #88d8fd;
+ }
+
+ /* ==============================================
+    Author's custom styles
+    ============================================ */
+
+
+
+.wrapper {
+     max-width: 940px;
+     max-height: 700px;
+     margin: 0 40px;
+}
+
+
+nav {
+     width: 100%;
+     margin-bottom: 10px;
+     box-sizing: border-box;
+}
+
+.nav-boxes {
+     float: left;
+     width: 7%;
+     height: 58px;
+     margin-bottom: 10px;
+     margin-right: 10px;
+     background-color: #e04e5a;
+     box-sizing: border-box;
+}
+
+.nav-boxes:last-child {
+     float: right;
+     margin-right: 0;
+     background-color: #e04e5a;
+}
+
+
+section {
+     width: 100%;
+     padding: 55px 0;
+     margin-bottom: 10px;
+     box-sizing: border-box;
+}
+
+.section-boxes {
+     float: left;
+     width: 14%;
+     height: 103px;
+     margin-left: 3.2%;
+     background-color: #e04e5a;
+     box-sizing: border-box;
+}
+
+.section-boxes:first-child {
+    margin-left: 0;
+}
+
+.main {
+    width: 100%;
+    border: 10px solid #88d8fd;
+    box-sizing: border-box;
+}
+
+.main-boxes {
+     float: left;
+     width: 17%;
+     display: table-cell;
+     height: 113px;
+     background-color: #4ee077;
+     border: 10px solid #e04e5a;
+     box-sizing: border-box;
+}
+
+.main-boxes:first-child {
+     float: right;
+     width: 15%;
+     height: 226px;
+     border-left: 0;
+     background-color: #e0cd4e;
+     border-left: 0;
+     box-sizing: border-box;
+}
+
+.left-line {
+     position: fixed;
+     left: 0;
+     top: 230px;
+     width: 17px;
+     height: 165px;
+     background-color: #8f4ee0;
+}
+
+footer {
+     margin-top: 96px;
+     width: 100%;
+     height: 23px;
+     background-color: #8f4ee0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
