@@ -121,16 +121,15 @@
 
 
 .wrapper {
-     max-width: 940px;
-     max-height: 700px;
-     margin: 0 40px;
+	position: relative;
+	 max-width: 940px;
+     margin: 0 auto;
 }
 
 
 nav {
      width: 100%;
      margin-bottom: 10px;
-     box-sizing: border-box;
 }
 
 .nav-boxes {
@@ -140,7 +139,6 @@ nav {
      margin-bottom: 10px;
      margin-right: 10px;
      background-color: #e04e5a;
-     box-sizing: border-box;
 }
 
 .nav-boxes:last-child {
@@ -152,48 +150,52 @@ nav {
 
 section {
      width: 100%;
-     padding: 55px 0;
+     padding: 55px 0 27px 0;
      margin-bottom: 10px;
      box-sizing: border-box;
 }
 
+.wrapper1{
+	margin-left: -3%;
+
+}
 .section-boxes {
      float: left;
-     width: 14%;
+     margin-bottom: 27px;
+     width: 13.665%;
      height: 103px;
-     margin-left: 3.2%;
+     margin-left: 3%;
      background-color: #e04e5a;
-     box-sizing: border-box;
 }
 
-.section-boxes:first-child {
-    margin-left: 0;
-}
 
 .main {
     width: 100%;
     border: 10px solid #88d8fd;
+    background-color: #e04e5a;
+    margin-bottom: 96px;
     box-sizing: border-box;
+}
+
+.wrapper2 {
+	width: 85%;
 }
 
 .main-boxes {
      float: left;
      width: 17%;
-     display: table-cell;
      height: 113px;
      background-color: #4ee077;
-     border: 10px solid #e04e5a;
-     box-sizing: border-box;
+     margin:10px;
 }
 
-.main-boxes:first-child {
+.yellow {
      float: right;
+     margin: 10px 10px 10px 0;
      width: 15%;
-     height: 226px;
-     border-left: 0;
+     height: 246px;
      background-color: #e0cd4e;
-     border-left: 0;
-     box-sizing: border-box;
+          
 }
 
 .left-line {
@@ -205,11 +207,11 @@ section {
      background-color: #8f4ee0;
 }
 
-footer {
-     margin-top: 96px;
-     width: 100%;
-     height: 23px;
-     background-color: #8f4ee0;
+.bottom-line {
+	bottom: 0;
+	width: 100%;
+    height: 23px;
+    background-color: #8f4ee0;
 }
 
 
