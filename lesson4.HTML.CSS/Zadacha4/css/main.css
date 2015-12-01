@@ -76,7 +76,7 @@
         url('../fonts/museo300/museo300-regular-webfont-webfont.ttf') format('truetype'),
         url('../fonts/museo300/museo300-regular-webfont-webfont.svg#museo300') format('svg');
    font-weight: normal;
-   font-style: normal;c
+   font-style: normal;
 }
 @font-face {
    font-family: 'museo500';
@@ -190,10 +190,11 @@ h1, h2, h3 {
 }
 
 .logo {
-     font-size: 30px;
      float: left;
+     font-size: 30px;
      line-height: 2.6;
 }
+
 
 .wrapper {
      max-width: 940px;
@@ -408,7 +409,7 @@ footer .right-nav a {
      margin-right: 10px;
      border: 1px solid #fff;
      border-radius: 50%;
-     background-image: url(../img/social.png);
+     background-image: url(../img/social.png) no-repeat;
 
 }
 
@@ -555,9 +556,9 @@ footer .bottom-nav span {
 
 @media screen and (max-width: 320px) {
 
-     /*.team .person {
+     .team .person {
           width: 100%;
-     }*/
+     }
 
      .team .person-img {
           width: 150px;
