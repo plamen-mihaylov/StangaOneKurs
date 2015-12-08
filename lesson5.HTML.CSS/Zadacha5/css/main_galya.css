@@ -1,0 +1,724 @@
+ /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+ html {
+     color: #222;
+     font-size: 1em;
+     line-height: 1.4;
+ }
+
+ ::-moz-selection {
+     background: #b3d4fc;
+     text-shadow: none;
+ }
+
+ ::selection {
+     background: #b3d4fc;
+     text-shadow: none;
+ }
+
+ hr {
+     display: block;
+     height: 1px;
+     border: 0;
+     border-top: 1px solid #ccc;
+     margin: 1em 0;
+     padding: 0;
+ }
+
+ audio,
+ canvas,
+ iframe,
+ img,
+ svg,
+/* video {
+     vertical-align: middle;
+ }*/
+
+ fieldset {
+     border: 0;
+     margin: 0;
+     padding: 0;
+ }
+
+ textarea {
+     resize: vertical;
+ }
+
+ .browserupgrade {
+     margin: 0 0;
+     background: #ccc;
+     color: #000;
+     padding: 0 0;
+ }
+
+
+
+ /h1, h2, h3, h4, p {
+     margin: 0;
+ } 
+ ul {
+     margin: 0;
+     padding: 0;
+ }
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ /* ==========================================================================
+    Fonts
+    ========================================================================== */
+
+
+
+ /* ==========================================================================
+    Helper classes
+    ========================================================================== */
+
+ .hidden {
+     display: none !important;
+     visibility: hidden;
+ }
+
+ .visuallyhidden {
+     border: 0;
+     clip: rect(0 0 0 0);
+     height: 1px;
+     margin: -1px;
+     overflow: hidden;
+     padding: 0;
+     position: absolute;
+     width: 1px;
+ }
+
+ .visuallyhidden.focusable:active,
+ .visuallyhidden.focusable:focus {
+     clip: auto;
+     height: auto;
+     margin: 0;
+     overflow: visible;
+     position: static;
+     width: auto;
+ }
+
+ .invisible {
+     visibility: hidden;
+ }
+
+ .clearfix:before,
+ .clearfix:after {
+     content: " ";
+     display: table;
+ }
+
+ .clearfix:after {
+     clear: both;
+ }
+
+ 
+
+ /* ==============================================
+    Reusable styles
+    ============================================ */
+
+ /* ==============================================
+    Author's custom styles
+    ============================================ */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  } 
+
+body {
+    width: 100%;
+    height: 100%;
+    color: #475055;
+    background-color: #4d6681;
+
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.wrap {
+    width: 930px;
+    margin: 0 auto;
+}
+
+.section1 {
+    width: 100%;
+    max-height: 678px;
+}
+
+.section1-right {
+    width: 50%;
+    float: right;
+
+}
+
+.soc-wrap {
+    width: 100%;
+    height: 318px;
+    margin-bottom: 2%;
+}
+
+.social-menu {
+    width: 50%;
+    height: 316px;
+    padding: 30px;
+    float: left;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.social-menu ul {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    list-style-type: none;    
+}
+
+.social-menu li {
+    padding: 2%;
+}
+
+.social-menu a:hover {
+    color: #4fc6f8;
+}
+
+.ie a {    
+    width: 44px;
+    height: 46px;
+    display: block;
+    color: #777; 
+    text-decoration: none;
+
+
+    background: url(../images/top_sprite.png) scroll no-repeat left center;
+    padding: 14px 0px 2px 42px;
+}
+
+.facebook a{
+    background-position: 0 0;
+}
+
+.facebook:hover a{
+    background-position: -44px 0;
+}
+
+.twitter a{
+    background-position: 0 -46px;
+}
+
+.twitter:hover a{
+    background-position: -44px -46px;
+}
+.google a{
+    background-position: 0 -100px;
+}
+
+.google:hover a{
+    background-position: -44px -100px;
+}
+
+.rss a{
+    background-position: 0 -155px;
+}
+
+.rss:hover a{
+    background-position: -44px -155px;
+}
+.pinterest a{
+    background-position: 0 -212px;
+}
+
+.pinterest:hover a{
+    background-position: -44px -212px;
+}
+
+.follow {
+    width: 50%;
+    float: left;
+ 
+}
+
+.widget {
+    width: 100%;
+}
+
+.fb {
+    background-color: #4d6baa;
+      margin-bottom: 16px;
+}
+
+.fb p,
+.tw p {
+    color: #fff;
+    font-size: 14px;
+}
+
+.fb-left,
+ .tw-left{
+    width: 50%;
+    float: left;
+    padding: 8%;
+}
+
+.fb-left img,
+.tw-left img {
+   padding-bottom: 40px;
+}
+
+.fb-right,
+.tw-right {
+    width: 50%;
+    float: left;
+    padding-top: 48%; 
+}
+
+.tw {
+    background-color: #4fc6f8;
+}
+
+.fb-right img,
+.tw-right img {
+    float: right;
+}
+
+.fb-right p,
+.tw-right p {
+    float: left;
+}
+
+.signin {
+    width: 100%;
+    height: 193px;
+    position: relative;
+    background-color: #fff;
+}
+
+.sign-text {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 6%;
+    text-align: center;
+}
+
+.sign-text p {
+    color: #777;
+    overflow: hidden;
+}
+
+.sign-social {
+    width: 80%;
+    margin: 0 auto; 
+    padding: 4% 6% 0% 6%;
+}
+
+.sign-social ul {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    list-style-type: none;     
+}
+
+.sign-social li {
+    float: left;
+}
+
+.sign a {    
+    width: 55px;
+    height: 52px;
+    display: block; 
+    text-decoration: none;
+
+    background: url(../images/top_sprite.png) scroll no-repeat left center;
+    padding: 2px 0px 2px 42px;
+}
+
+.f-b a{
+    background-position: -88px 0;
+}
+
+.f-b:hover a{
+    background-position: -88px -52px;
+}
+
+.t-w a{
+    background-position: -143px 0px;
+}
+
+.t-w:hover a{
+    background-position: -143px -52px;
+}
+.gg a{
+    background-position: -200px 0px;
+}
+
+.gg:hover a{
+    background-position: -200px -52px;
+}
+
+.in a{
+    background-position: -252px 0px;
+}
+
+.in:hover a{
+    background-position: -252px -52px;
+}
+
+.join {
+    width: 100%;
+    height: 193px;
+    margin-top: 2%;
+    padding: 1%;
+    background-color: #fff;
+}
+
+.join-text {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 6%;
+    text-align: center;
+}
+
+.join-text h2 {
+    margin: 0;
+    padding: 2% 0%;
+}
+
+.subs {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 4%;
+}
+
+.subs form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.subs input {
+    padding: 1%;
+}
+
+.subs button {
+   border-radius: 6px 6px 6px 6px;
+    -moz-border-radius: 6px 6px 6px 6px;
+    -webkit-border-radius: 6px 6px 6px 6px;
+    border: 1px solid #ea6060;
+    background-color: #ea6060;
+    color: #fff;
+    padding: 2%;
+}
+
+.subs button:hover {
+    opacity: 0.5;
+}
+
+.videotag {
+    width: 100%;
+    max-height: 300px;
+    margin: 1% 0%;
+    background-color: #fff;
+}
+
+.camera {
+    width: 6%;
+    float: left;
+    padding-top: 4%;
+}
+
+.vid-left {
+    width: 26%;
+    max-height: 300px;
+    float: left;
+    padding: 2%;
+    overflow: hidden;
+}
+
+.vid-right {
+    width: 68%;
+    float: right;
+}
+
+.but {
+    width: 20%;
+    max-height: 300px;
+    padding: 7% 0%;
+    float: left;
+    background-color: #1f3045; 
+}
+
+.but ul {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    list-style-type: none; 
+    text-align: center; 
+    color: #fff;
+}
+
+.but li {
+    padding-right: 18%;
+}
+
+.butn a {    
+    width: 55px;
+    height: 52px;
+    display: block; 
+    text-decoration: none;
+
+    background: url(../images/top_sprite.png) scroll no-repeat left center;
+   
+}
+
+.like a{
+    background-position: -88px -100px;
+}
+
+.like:hover a{
+    opacity: 0.3;
+}
+
+.later a{
+    background-position: -143px -100px;
+}
+
+.later:hover a{
+    opacity: 0.3;
+}
+.share a{
+    background-position: -200px -100px;
+}
+
+.share:hover a{
+     opacity: 0.3;
+}
+
+.play {
+    width: 80%;
+    padding: 16.8%;
+    float: right; 
+    background-color: #787878;
+}
+
+.play-b {
+    width: 100%;
+    padding: 2% 36%;
+}
+
+.section4 {
+    width: 100%;
+}
+
+.section4-right {
+    width: 69%;
+    float: right;
+}
+
+.insta {
+    width: 100%;
+}
+
+.insta-left {
+    width: 50%;
+    max-height: 300px;
+    margin: 0 auto;
+    float: left;
+    background-color: #fff;
+    
+}
+
+.cam {
+    width: 90%;
+    height: 300px;
+    padding-left: 12%;
+    overflow: hidden;
+}
+
+.insta-right {
+    width: 50%;
+    height: 100%;
+    float: left;
+    height: 300px;
+    background-color: #787878;
+}
+
+.calendar {
+    width: 100%;
+    height: 300px;
+    margin-top: 2%;
+}
+
+.calendar-left {
+    width: 49%;
+    height: 300px;
+    float: left;
+    background: url(../images/calendar.jpg) no-repeat;
+}
+
+.calendar-right {
+    width: 51%;
+    height: 300px;
+    padding: 16%;
+    float: left;
+    background-color: #ea6060;
+    overflow: hidden;
+}
+
+.calendar-right p {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.new {
+    width: 100%;
+    height: 600px;
+    margin-top: 2%; 
+    background-color: #fff;
+}
+
+.top-new {
+   
+    height: 300px;
+    background-color: #787878;
+}
+
+.bottom-new {
+    width: 100%;
+    height: 300px;
+}
+
+.art {
+    width: 10%;
+    float: left;
+    padding-top: 6%;
+}
+
+.art-text {
+    width: 90%;
+    float: left;
+    padding: 4%;
+}
+
+.numbers {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.numbers span {
+    padding-left: 4%;
+}
+
+.quote {
+    width: 100%;
+    height: 150px;
+    margin-top: 2%; 
+    background-color: #fff;
+}
+
+.quote-text {
+    width: 90%;
+    float: left;
+    padding: 6%;
+}
+
+.quote-text p{
+    font-style: italic;
+    font-size: 24px;
+}
+
+.tabs {
+    width: 100%;
+    margin-top: 2%;
+    position: relative;
+    background-color: #fff;
+
+}
+
+.tabs-top ul {
+    margin: 0 auto;
+    position: relative;
+    list-style-type: none; 
+    text-align: center; 
+}
+
+.tabs-top li {
+    width: 20%;
+    float: left;
+    padding: 4% 5%;
+    color: #fff;
+    background-color: #c5cdd1;
+}
+
+.tabs-top li:hover {
+    color: #475055;
+    background-color: #fff;
+}
+.tabs-bottom {
+    width: 100%;
+}
+
+.t-left {
+    width: 50%;
+    padding: 4%;
+    float: left;
+}
+.photo {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.photo img {
+    float: left;
+    padding-right: 2%;
+}
+
+.photo h4 {
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+}
+
+.photo p {
+    opacity: 0.5;
+    padding: 10%;
+    font-size: 12px;
+}
+
+.photo-bottom {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.photo-bottom a {
+    display: inline-block;
+    padding: 4px;
+    color: #4bc7c7;
+}
+
+@media screen and (max-width: 940px) {
+  .social-menu {
+    padding: 3vw;
+  }
+
+  .ie a {
+    font-size: 2vw;
+  }
+
+  .subs form {
+    width: 100%;
+}
+}
