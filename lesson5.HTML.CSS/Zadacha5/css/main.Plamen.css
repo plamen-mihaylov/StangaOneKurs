@@ -257,8 +257,11 @@ a.menu-icon {
 }
 
 .section1-left {
+<<<<<<< HEAD
     position: relative;
     overflow: hidden;
+=======
+>>>>>>> 2c4f1bc230e59899ca6bee396694608b53ff4f91
     float: left;
     width: 49%;
     margin-right: 1%;
@@ -363,12 +366,20 @@ span.sprite.contact {
 }
 
 .content-info {
+<<<<<<< HEAD
     padding: 20px 0;
+=======
+    padding: 19px 0;
+>>>>>>> 2c4f1bc230e59899ca6bee396694608b53ff4f91
     background-color: #c5cdd1;
 }
 
 .info {
+<<<<<<< HEAD
     padding: 18px 15px;
+=======
+    padding: 17px 15px;
+>>>>>>> 2c4f1bc230e59899ca6bee396694608b53ff4f91
 }
 
 .info p {
