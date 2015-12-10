@@ -339,11 +339,13 @@ p.line:after {
 .gallery {
 	width: 100%;
 	margin: 4% auto;
+	text-align: center;
 }
 
 .gallery img {
-	max-width: 25%;
-	float: left;
+	display: inline-block;
+	max-width: 24%;
+	
 }
 
 .gallery img:hover {
@@ -723,7 +725,7 @@ p.copyright {
     }
 		
 	.gallery img {
-    	max-width: 50%;
+    	max-width: 49%;
     }
 
     .team_gallery {
