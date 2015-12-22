@@ -10,7 +10,7 @@ while (numbers.length < 6) {
 
    document.getElementById('first').innerHTML=numbers[0]
    document.getElementById('second').innerHTML=numbers[1]
-   document.getElementById('thirth').innerHTML=numbers[2]
+   document.getElementById('third').innerHTML=numbers[2]
    document.getElementById('fourth').innerHTML=numbers[3]
    document.getElementById('fifth').innerHTML=numbers[4]
    document.getElementById('sixth').innerHTML=numbers[5]
